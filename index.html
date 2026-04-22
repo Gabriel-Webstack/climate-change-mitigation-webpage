@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act Now | Climate Change Mitigation</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+   <nav class="navbar">
+        <div class="logo">Act<span>Now</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#intro">Cause</a></li> 
+            <li><a href="#strategies">Strategies</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#team">Team</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay">
+            <h1>Climate Change Mitigation: <br><span class="gradient-text">Protecting Our Future</span></h1>
+            <p>Raising awareness and providing practical solutions for a sustainable planet.</p>
+            <a href="#intro" class="btn-main">Explore Solutions</a>
+        </div>
+    </header>
+
+    <section id="intro" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">The Causes of Climate Change</h2>
+            
+             <div class="split-content-about reverse">
+                <div class="about-text-block">
+                    <h3>What is Climate Change?</h3>
+                    <p>Climate change refers to long-term shifts in temperatures and weather patterns. While natural, <strong>human activities</strong>—primarily the burning of fossil fuels—have been the main driver since the 1800s.</p>
+                    <p>Greenhouse gases act like a blanket wrapped around the Earth, trapping the sun's heat and raising temperatures.</p>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80" alt="Earth from Space" class="floating-img">
+                </div>
+            </div>
+
+            <div class="split-content-about">
+                <div class="about-text-block">
+                    <h3>Fossil Fuels & Air Pollution</h3>
+                    <p>The primary driver of climate change is the burning of <strong>fossil fuels</strong> like coal, oil, and gas. This process releases vast amounts of carbon dioxide and nitrous oxide into our atmosphere.</p>
+                    <p>These pollutants act like a thermal blanket, trapping heat and creating the "Greenhouse Effect" that rapidly warms our planet's surface.</p>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="roman-z-SZB9eflAhUk-unsplash.jpg" alt="Industrial Air Pollution" class="floating-img">
+                </div>
+            </div>
+
+            <div class="split-content-about reverse">
+                <div class="about-text-block">
+                    <h3>Deforestation & Land Use</h3>
+                    <p>Forests play a vital role by absorbing CO2 from the air. When trees are cleared for agriculture or industry, that stored carbon is released back into the atmosphere.</p>
+                    <p>Mass <strong>deforestation</strong> not only reduces the Earth's capacity to "breathe" but also destroys the biodiversity necessary for a resilient global ecosystem.</p>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="roya-ann-miller-BkTsP32Dfnc-unsplash.jpg" alt="Deforested land" class="floating-img">
+                </div>
+            </div>
+
+            <div class="split-content-about">
+                <div class="about-text-block">
+                    <h3>Industrial Agriculture</h3>
+                    <p>Modern farming practices contribute significantly to global warming. Livestock like cows produce <strong>methane</strong>, a greenhouse gas far more potent than carbon dioxide in the short term.</p>
+                    <p>Additionally, the use of chemical fertilizers releases nitrous oxide, further accelerating the heating of our atmosphere.</p>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="xiangqi-ji-k0uzlyViao0-unsplash.jpg" alt="Industrial Livestock Farming" class="floating-img">
+                </div>
+            </div>
+
+            <div class="split-content-about reverse">
+                <div class="about-text-block">
+                    <h3>Waste & Manufacturing</h3>
+                    <p>Our "throwaway culture" fills landfills with waste that decomposes and releases <strong>methane gas</strong>. The energy-intensive process of manufacturing new products also requires massive amounts of fossil fuels.</p>
+                    <p>By reducing consumption and improving recycling, we can lower the industrial demand that fuels climate change.</p>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1516992654410-9309d4587e94?auto=format&fit=crop&w=800&q=80" alt="Landfill and garbage" class="floating-img">
+                </div>
+            </div>
+<h1 style="text-align: center;">Our Warming Planet</h1> 
+<div id="crisis-globe-container" style="width: 100%; height: 400px; margin-top: 40px; border-radius: 20px; overflow: hidden;"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+<script src="script.js"></script>
+    </section>
+<section id="strategies" class="section gray-bg reveal">
+    <div class="container">
+        <h2 class="section-title">5 Mitigation Strategies</h2>
+        <p style="text-align: center; margin-bottom: 30px;">Click a strategy to learn more, then watch the video.</p>
+        <div class="strategy-grid">
+            <div class="s-box" onclick="openStrategyModal('☀️', 'Renewable Energy', 'Transitioning to solar and wind power reduces our reliance on fossil fuels, cutting down the greenhouse gases that warm our planet.', 'Renewable Energy 101 _ National Geographic.mp4')">
+                <div class="s-icon">☀️</div>
+                <h4>Renewable Energy</h4>
+                <p>Switching to solar and wind power.</p>
+            </div>
+            <div class="s-box" onclick="openStrategyModal('🌲', 'Reforestation', 'Trees act as natural carbon sinks. Planting more trees helps absorb excess CO2 currently in our atmosphere.', 'What is Reforestation_ _ Eco Facts _ One Tree Planted.mp4')">
+                <div class="s-icon">🌲</div>
+                <h4>Reforestation</h4>
+                <p>Planting trees to absorb carbon.</p>
+            </div>
+            <div class="s-box" onclick="openStrategyModal('💡', 'Energy Efficiency', 'Using smarter technology to perform tasks with less energy reduces the overall demand on power plants.', 'Energy Efficiency 101.mp4')">
+                <div class="s-icon">💡</div>
+                <h4>Energy Efficiency</h4>
+                <p>Using less power with smart tech.</p>
+            </div>
+            <div class="s-box" onclick="openStrategyModal('🚲', 'Green Transit', 'Electric vehicles and public transportation reduce the carbon footprint caused by gas-powered engines.', 'Green Transportation.mp4')">
+                <div class="s-icon">🚲</div>
+                <h4>Green Transit</h4>
+                <p>Electric cars and public transport.</p>
+            </div>
+            <div class="s-box" onclick="openStrategyModal('♻️', 'Waste Reduction', 'By recycling and reusing, we prevent waste from ending up in landfills where they release harmful methane gas.', 'Reduce, Reuse, Recycle.mp4')">
+                <div class="s-icon">♻️</div>
+                <h4>Waste Reduction</h4>
+                <p>Recycling and circular consumption.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="infoModal" class="video-modal">
+    <div class="modal-content" style="background: white; border-radius: 20px; padding: 40px; text-align: center; max-width: 600px;">
+        <span class="close-modal" onclick="closeModal()" style="color: #333; top: 10px; right: 20px;">&times;</span>
+        
+        <div id="modal-info-view">
+            <div id="info-icon" style="font-size: 4rem; margin-bottom: 20px;"></div>
+            <h3 id="info-title" style="color: var(--primary); font-size: 2rem; margin-bottom: 15px;"></h3>
+            <p id="info-text" style="color: #555; font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px;"></p>
+            <button id="play-video-btn" class="btn-main" style="border: none; cursor: pointer;">Play Video Guide</button>
+        </div>
+        
+        <div id="modal-video-view" style="display: none;">
+            <div class="video-container">
+                <iframe id="videoPlayer" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <button onclick="backToInfo()" class="btn-main" style="margin-top: 20px; background: var(--navy); border: none; cursor: pointer;">Back to Info</button>
+        </div>
+    </div>
+</div>
+<section id="about-us" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">About Our Mission</h2>
+            <div class="glass-box" style="max-width: 800px; margin: 0 auto;">
+                <strong>ActNow</strong> is a student-led digital initiative at the forefront of climate advocacy. 
+                By transforming complex environmental data into accessible visual stories, we aim to bridge 
+                the gap between scientific research and community action.
+            </p>
+            <br>
+            <p>
+                We believe that through a dedicated focus on <strong>renewable energy</strong>, 
+                <strong>reforestation</strong>, and <strong>sustainable lifestyle habits</strong>, 
+                informed individuals can become the primary drivers of global change. This platform serves 
+                as a vital resource hub for those ready to defend our environment and secure a 
+                sustainable future for all.
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section gray-bg reveal">
+        <div class="container">
+            <h2 class="section-title">Our Research Team</h2>
+            <div class="team-grid">
+                <div class="member" onclick="revealMember('Diana Rose Abantao', 'ID: 242204')">
+                    <img src="Abantao, Diana Rose 242204.png" alt="Member 1">
+                    <p>Student 1</p>
+                </div>
+                <div class="member" onclick="revealMember('Arelene R. Aday', 'ID: 243738')">
+                    <img src="ADAY, ARLENE R. 243738.png" alt="Member 2">
+                    <p>Student 2</p>
+                </div>
+                <div class="member" onclick="revealMember('Angel Ann L. Ocenar', 'ID: 241985')">
+                    <img src="OCENAR ANGEL ANN L. 241985.png" alt="Member 3">
+                    <p>Student 3</p>
+                </div>
+                <div class="member" onclick="revealMember('Edrien Mhay D. Verdeflor', 'ID: 362401')">
+                    <img src="Verdeflor, Edrien Mhay D. 362401.jpeg" alt="Member 4">
+                    <p>Student 4</p>
+                </div>
+                <div class="member" onclick="revealMember('Laiza T. Fabillar', 'ID: 242207')">
+                    <img src="FABILLAR LAIZA T. 242207.jpeg" alt="Member 5">
+                    <p>Student 5</p>
+                </div>
+                <div class="member" onclick="revealMember('Jasme T. Zabala', 'ID: 241989')">
+                    <img src="Zabala, Jasmen T. 241989. png" alt="Member 6">
+                    <p>Student 6</p>
+                </div>
+                <div class="member" onclick="revealMember('Leo Francis E. Boco', 'ID: 244344')">
+                    <img src="BOCO,LEO FRANCIS E. BSIT 2E -244344.png" alt="Member 7">
+                    <p>Student 7</p>
+                </div>
+                <div class="member" onclick="revealMember('Gabriel T. Bechachino', 'ID: 242303')">
+                    <img src="242303 (1).jpeg" alt="Member 8">
+                    <p>Student 8</p>
+                </div>
+            </div>
+            <div id="member-display" class="glass-box">
+                <h4 id="m-name">Select a Member</h4>
+                <p id="m-info">Click a photo to see their role.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Scientific Data</h4>
+                    <ul>
+                        <li>NASA: Global Climate Change</li>
+                        <li>IPCC: Intergovernmental Panel</li>
+                        <li>UNEP: United Nations Environment</li>
+                        <li>World Health Organization (WHO)</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Media Resources</h4>
+                    <ul>    
+                        <li>TED-Ed: Climate Solutions</li>
+                        <li>Unsplash: Open Source Imagery</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Youtube Channel</h4>
+                    <ul>
+                        <li>National Geographic (YouTube)</li>
+                        <li>One Tree Planted</li>
+                        <li>Student Energy</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CEE1 Project</h4>
+                    <p>Group 2</p>
+                    <p>© 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
